@@ -24,14 +24,21 @@ Compared model performance using key metrics:
 ## Feature Importance
 The Tree-based models allowed to identify the most impactful predictors. I compared feature importance rankings across models to draw consistent insights.
 # Results & Insights
-## Top Performing Models:
+## Top Performing Models
 - Random Forest and XGBoost provided the best trade-off between F1 score and recall, making them strong candidates for credit risk prediction.
-### Most Influential Features:
+### Most Influential Features
 - Maximum payment delay
 - Credit limit (LIMIT_BAL)
 - Utilization ratios
 - Payment history trends
-## Demographic Insight:
+## Demographic Insight
 While demographic factors like age, sex, and education were less impactful on their own, they contributed meaningfully through interactions with behavioral features.
-# Conclusion:
+## Conclusion:
 Tree-based ensemble models — especially under class imbalance — are highly effective for financial risk modeling in credit scoring scenarios.
+## Dataset Overview
+This dataset contains information on 30,000 credit card clients in Taiwan, tracked over a 6-month period like:
+- Demographics:	AGE, SEX, EDUCATION, MARRIAGE
+- Payment Behavior:	PAY_0 to PAY_6 (monthly repayment status)
+- Financials:	BILL_AMT1–6, PAY_AMT1–6, LIMIT_BAL
+- Target:	default.payment.next.month (1 = default, 0 = no default)
+Source: [Credit Card Default Dataset on Kaggle](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset)
