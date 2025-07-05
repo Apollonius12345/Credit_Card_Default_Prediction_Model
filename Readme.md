@@ -14,3 +14,24 @@ Trained and fine-tuned a wide set of models using pipelines and RandomizedSearch
 - XGBoost
 - LightGBM
 - CatBoost
+## Model Evaluation
+Compared model performance using key metrics:
+- F1 Score
+- ROC AUC
+- Precision & Recall
+- Confusion Matrices
+- ROC Curves
+## Feature Importance
+The Tree-based models allowed to identify the most impactful predictors. I compared feature importance rankings across models to draw consistent insights.
+# Results & Insights
+## Top Performing Models:
+- Random Forest and XGBoost provided the best trade-off between F1 score and recall, making them strong candidates for credit risk prediction.
+### Most Influential Features:
+- Maximum payment delay
+- Credit limit (LIMIT_BAL)
+- Utilization ratios
+- Payment history trends
+## Demographic Insight:
+While demographic factors like age, sex, and education were less impactful on their own, they contributed meaningfully through interactions with behavioral features.
+# Conclusion:
+Tree-based ensemble models — especially under class imbalance — are highly effective for financial risk modeling in credit scoring scenarios.
