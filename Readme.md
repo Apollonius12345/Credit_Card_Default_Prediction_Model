@@ -41,4 +41,5 @@ This dataset contains information on 30,000 credit card clients in Taiwan, track
 - Payment Behavior:	PAY_0 to PAY_6 (monthly repayment status)
 - Financials:	BILL_AMT1–6, PAY_AMT1–6, LIMIT_BAL
 - Target:	default.payment.next.month (1 = default, 0 = no default)
+
 Source: [Credit Card Default Dataset on Kaggle](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset)
