@@ -1,5 +1,5 @@
 # Credit Card Default Prediction
-This project focuses on predicting whether a credit card holder will default on their payment in the upcoming month. Using a dataset of Taiwanese credit card clients, we apply a range of machine learning models — with a special emphasis on tree-based ensemble methods — to explore model performance, interpretability, and predictive power.
+This project focuses on predicting whether a credit card holder will default on their payment in the upcoming month. Using a dataset named "Credit Default Dataset" prepared by PhD. Scholars under Department of Management Studies, IIT Roorkee, I applied a range of Machine Learning models — with a special emphasis on tree-based ensemble methods — to explore model performance, interpretability, and predictive power.
 ## Data Preprocessing
 Started by cleaning the dataset, encoding categorical variables, and engineering meaningful features such as:
 - Delay trends (from repayment history)
