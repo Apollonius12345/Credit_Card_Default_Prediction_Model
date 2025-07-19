@@ -42,4 +42,4 @@ This dataset contains information on 30,000 credit card clients in Taiwan, track
 - Financials:	BILL_AMT1–6, PAY_AMT1–6, LIMIT_BAL
 - Target:	default.payment.next.month (1 = default, 0 = no default)
 
-Source: [Credit Card Default Dataset on Kaggle](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset)
+Source: Credit Default Dataset prepared by PhD. Scholars under DoMS, IIT Roorkee
